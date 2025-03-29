@@ -90,7 +90,7 @@ const Search = () => {
           setIsOpen(false);
         }}
         type="submit"
-        className="h-12 px-6 text-base font-medium"
+        className="h-9 px-6 text-base font-medium"
         disabled={isLoading || input.trim() === ""}>
         {isLoading ? "Searching..." : "Search"}
       </Button>

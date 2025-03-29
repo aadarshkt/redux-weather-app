@@ -37,8 +37,7 @@ interface CurrentData {
   uv: number;
   cloud: number;
   air_quality: AirQualityData;
-}
-
+}   
 interface WeatherData {
   location: LocationData;
   current: CurrentData;
