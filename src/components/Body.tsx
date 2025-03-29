@@ -124,7 +124,7 @@ const Body = () => {
         <CardContent className="p-6">
           <div className="flex flex-col space-y-5">
             {/* Temperature Section */}
-            <div className="flex justify-between items-center bg-slate-50 dark:bg-slate-900 rounded-lg p-5">
+            <div className="flex justify-between items-center dark:bg-slate-900 rounded-lg p-5">
               <div className="space-y-2">
                 <p className="text-5xl font-bold text-primary-foreground">
                   {current.temp_c}°<span className="text-2xl">C</span>
