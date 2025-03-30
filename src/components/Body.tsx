@@ -125,13 +125,13 @@ const Body = () => {
             {/* Temperature Section */}
             <div className="flex justify-between items-center dark:bg-slate-900 rounded-lg p-5">
               <div className="space-y-2">
-                <p className="text-5xl font-bold text-primary-foreground">
+                <p className="text-5xl font-bold">
                   {current.temp_c}°<span className="text-2xl">C</span>
                 </p>
                 <p className="text-sm text-muted-foreground">Feels like {current.feelslike_c}°C</p>
               </div>
               <div className="space-y-2 text-right">
-                <p className="text-2xl text-primary-foreground">
+                <p className="text-2xl text-muted-foreground">
                   {current.temp_f}°<span className="text-lg">F</span>
                 </p>
                 <p className="text-sm text-muted-foreground">Feels like {current.feelslike_f}°F</p>
